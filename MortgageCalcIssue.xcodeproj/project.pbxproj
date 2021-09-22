@@ -15,6 +15,7 @@
 		55F50F1626FAD33600682FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F50F1426FAD33600682FED /* LaunchScreen.storyboard */; };
 		55F50F2126FAD33600682FED /* MortgageCalcIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F50F2026FAD33600682FED /* MortgageCalcIssueTests.swift */; };
 		55F50F2B26FAD33600682FED /* MortgageCalcIssueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F50F2A26FAD33600682FED /* MortgageCalcIssueUITests.swift */; };
+		55F50F3826FAD34700682FED /* MortgageCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F50F3726FAD34700682FED /* MortgageCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		55F50F2026FAD33600682FED /* MortgageCalcIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalcIssueTests.swift; sourceTree = "<group>"; };
 		55F50F2626FAD33600682FED /* MortgageCalcIssueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MortgageCalcIssueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F50F2A26FAD33600682FED /* MortgageCalcIssueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalcIssueUITests.swift; sourceTree = "<group>"; };
+		55F50F3726FAD34700682FED /* MortgageCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				55F50F1226FAD33600682FED /* Assets.xcassets */,
 				55F50F1426FAD33600682FED /* LaunchScreen.storyboard */,
 				55F50F1726FAD33600682FED /* Info.plist */,
+				55F50F3726FAD34700682FED /* MortgageCalculator.swift */,
 			);
 			path = MortgageCalcIssue;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				55F50F0E26FAD33300682FED /* ViewController.swift in Sources */,
 				55F50F0A26FAD33300682FED /* AppDelegate.swift in Sources */,
 				55F50F0C26FAD33300682FED /* SceneDelegate.swift in Sources */,
+				55F50F3826FAD34700682FED /* MortgageCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
