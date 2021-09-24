@@ -144,10 +144,10 @@ class MortgageCalcIssueTests: XCTestCase {
         // TODO: Not deterministic. Eventually gets right values, but publishers aren't in sync. Determine root cause
         // FIXME: extra value is getting thrown in, likely due to mismatch on publishers
         // FIXME: likely need another publisher that returns a boolean indicating everything is done and it's ready to do the final computation
-        let expectedPayments = [339.62, 445.84, 433.97, 542.46]
+        let expectedPayments = [339.62, 433.97, 542.46]
         
         sut.monthlyPayment
-            .collect(4)
+            .collect(3)
             .sink { actualMonthlyPayment in
                 XCTAssertEqual(actualMonthlyPayment.map { $0.roundTo(places: 2) }, expectedPayments)
                 expectation.fulfill()
